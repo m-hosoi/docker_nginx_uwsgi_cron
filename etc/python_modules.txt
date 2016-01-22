@@ -26,4 +26,3 @@ pytz==2015.2
 facebook-sdk==0.4.0
 django-elasticache==0.0.3
 msgpack-python==0.4.6
-pycrypto==2.6.1
