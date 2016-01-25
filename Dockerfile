@@ -33,8 +33,8 @@ libmemcached-devel libmemcached python-crypto \
 && find /usr/lib/python2.7/site-packages/django/contrib/**/locale/* | grep -v '/en/' | grep -v '/en$' | xargs rm -rf \
 && find /usr/lib/python2.7/site-packages/django/conf/locale/* | grep -v '/en/' | grep -v '/en$' | xargs rm -rf \
 && yum clean all \
-&& rm -rf /var/log/* \
-&& rm -rf /var/cache/* \
+&& rm -rf /var/log/*/* \
+&& rm -rf /var/cache/*/* \
 && rm -rf /var/lib/yum \
 && rm -rf /var/lib/rpm
 
